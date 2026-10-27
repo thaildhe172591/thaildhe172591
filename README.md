@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:8957e5&height=200&section=header&text=Hi%2C%20I'm%20Thai%20%F0%9F%91%8B&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Engineer%20%C2%B7%20.NET%20%C2%B7%20React%2FNext.js%20%C2%B7%20Oracle%20%C2%B7%20Applied%20AI&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Hi, I'm Thai" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:8957e5&height=200&section=header&text=Hi%2C%20I'm%20Thai%20%F0%9F%91%8B&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Engineer%20%C2%B7%20.NET%20%C2%B7%20React%2FNext.js%20%C2%B7%20Oracle%20%C2%B7%20Agentic%20AI%20Orchestration&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Hi, I'm Thai" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=640&lines=I+build+enterprise+systems+end-to-end%3A+Oracle+%E2%86%92+.NET+%E2%86%92+React;Shipped+an+in-house+OCR%3A+claim+intake+20+min+%E2%86%92+5+min;Building+open-source+tools+for+AI+coding+agents" alt="Typing intro" />
 
