@@ -24,27 +24,7 @@ Full-stack engineer with 2+ years across **FPT Software** and **ESCS**, building
 ## 🛠️ Tech stack
 
 <div align="center">
-<table>
-  <tr>
-    <th>🎯 Daily driver</th>
-    <th>🧰 Comfortable</th>
-    <th>🌱 Exploring</th>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=cs,dotnet,react,nextjs,ts&perline=5" alt="C#, .NET, React, Next.js, TypeScript" /><br/>
-      <img src="https://img.shields.io/badge/Oracle_PL%2FSQL-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle PL/SQL" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=java,js,html,css,docker,git&perline=3" alt="Java, JavaScript, HTML, CSS, Docker, Git" />
-    </td>
-    <td align="center">
-      <img src="https://skillicons.dev/icons?i=python,go&perline=2" alt="Python, Go" /><br/>
-      <img src="https://img.shields.io/badge/LLM_Agents-8957E5?style=for-the-badge" alt="LLM Agents" /><br/>
-      <img src="https://img.shields.io/badge/MCP-1F6FEB?style=for-the-badge" alt="MCP" />
-    </td>
-  </tr>
-</table>
+  <img src="assets/tech-stack.svg" width="556" alt="Tech stack. Backend: C#, .NET, Java. Frontend: React, Next.js, TypeScript, JavaScript, HTML, CSS. Data: Oracle, PostgreSQL, MySQL, MongoDB. AI and automation: Claude, MCP, Python. Tools: Git, Visual Studio, VS Code, Docker, GitHub Actions." />
 </div>
 
 ## 🚀 Featured work
