@@ -4,11 +4,11 @@ import { mkdirSync, writeFileSync } from "node:fs";
 
 // "*" = daily driver. Names are skillicons.dev ids, except the custom tiles below.
 const ROWS = [
-  ["Backend", "APIs · business logic", ["cs*", "dotnet*", "java"]],
-  ["Frontend", "UI · server rendering", ["react*", "nextjs*", "ts*", "js", "html", "css"]],
+  ["Backend", "APIs · business logic", ["cs*", "dotnet*", "java", "go"]],
+  ["Frontend", "web · SSR · desktop", ["react*", "nextjs*", "tauri", "ts*", "js", "html", "css"]],
   ["Data", "schemas · PL/SQL · reports", ["oracle*", "postgres", "mysql", "mongodb"]],
-  ["AI & automation", "OCR · LLM agents · MCP", ["claude*", "mcp", "python"]],
-  ["Tools", "build · ship", ["git*", "visualstudio*", "vscode", "docker", "githubactions"]],
+  ["AI & automation", "OCR · LLM agents · MCP", ["claude*", "codex", "gemini", "grok", "copilot", "mcp", "python"]],
+  ["Tools & cloud", "build · ship · host", ["git*", "visualstudio*", "vscode", "docker", "githubactions", "aws", "cloudflare"]],
 ];
 
 const PAD = 28, LABEL_W = 176, ICON = 44, GAP = 12, ROW_H = 76, TOP = 18;
@@ -16,22 +16,28 @@ const W = PAD * 2 + LABEL_W + Math.max(...ROWS.map(([, , icons]) => icons.length
 const H = TOP + ROWS.length * ROW_H + 44;
 const FONT = "Segoe UI, Ubuntu, -apple-system, Helvetica, Arial, sans-serif";
 const SIMPLE_ICONS = "https://cdn.jsdelivr.net/npm/simple-icons@16.36.0/icons";
+const LOBE_ICONS = "https://cdn.jsdelivr.net/npm/@lobehub/icons-static-svg@1.95.1/icons";
 
 // Same dark rounded tile skillicons uses, so custom icons blend in.
 const tile = (inner) =>
   `<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256"><rect width="256" height="256" rx="60" fill="#242938"/>${inner}</svg>`;
 
-async function simpleIcon(slug, color) {
-  const svg = await (await fetch(`${SIMPLE_ICONS}/${slug}.svg`)).text();
-  const d = svg.match(/ d="([^"]+)"/)[1];
-  return tile(`<path transform="translate(52 52) scale(6.333)" fill="${color}" d="${d}"/>`);
+// simple-icons and lobe-icons are both 24×24: nest one on the tile, recoloured unless it ships its own colours.
+async function iconOnTile(url, color) {
+  const svg = (await (await fetch(url)).text()).trim();
+  return tile(svg.replace(/^<svg([^>]*)>/, (_, attrs) =>
+    `<svg${attrs.replace(/\s(width|height|style|role|fill)="[^"]*"/g, "")} x="52" y="52" width="152" height="152"${color ? ` fill="${color}"` : ""}>`));
 }
 
-// skillicons has no Oracle/Claude/MCP; simple-icons dropped Oracle, so its capsule is drawn here.
+// skillicons has none of these; simple-icons dropped Oracle (drawn here) and OpenAI/Grok (lobe-icons has them).
 const CUSTOM = {
   oracle: async () => tile(`<rect x="44" y="84" width="168" height="88" rx="44" stroke="#F80000" stroke-width="24"/>`),
-  claude: () => simpleIcon("claude", "#D97757"),
-  mcp: () => simpleIcon("modelcontextprotocol", "#FFFFFF"),
+  claude: () => iconOnTile(`${SIMPLE_ICONS}/claude.svg`, "#D97757"),
+  codex: () => iconOnTile(`${LOBE_ICONS}/codex.svg`, "#FFFFFF"),
+  gemini: () => iconOnTile(`${LOBE_ICONS}/gemini-color.svg`),
+  grok: () => iconOnTile(`${LOBE_ICONS}/grok.svg`, "#FFFFFF"),
+  copilot: () => iconOnTile(`${SIMPLE_ICONS}/githubcopilot.svg`, "#FFFFFF"),
+  mcp: () => iconOnTile(`${SIMPLE_ICONS}/modelcontextprotocol.svg`, "#FFFFFF"),
 };
 
 async function skillIcon(id) {
