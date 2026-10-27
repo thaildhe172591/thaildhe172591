@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="556" height="162" viewBox="0 0 556 162" font-family="Segoe UI, Ubuntu, -apple-system, Helvetica, Arial, sans-serif">
+<title>Human and AI commits</title>
+<rect x="0.5" y="0.5" width="555" height="161" rx="16" fill="#0d1117" stroke="#30363d"/>
+<text x="28" y="38" fill="#e6edf3" font-size="15" font-weight="600">Human × AI commits</text>
+<text x="528" y="38" fill="#8b949e" font-size="12" text-anchor="end">473 commits · 27 repos</text>
+<clipPath id="bar"><rect x="28" y="70" width="500" height="10" rx="5"/></clipPath>
+<g clip-path="url(#bar)"><rect x="28" y="70" width="500" height="10" fill="#21262d"/><rect x="28.0" y="70" width="198.7" height="10" fill="#3fb950"/><rect x="226.7" y="70" width="144.8" height="10" fill="#388bfd"/><rect x="371.6" y="70" width="156.4" height="10" fill="#a371f7"/></g>
+<circle cx="32" cy="109" r="4" fill="#3fb950"/>
+<text x="42" y="113" fill="#8b949e" font-size="12">Human</text>
+<text x="28" y="138" fill="#e6edf3" font-size="18" font-weight="600">188<tspan fill="#8b949e" font-size="12" font-weight="400"> · 40%</tspan></text>
+<circle cx="198.66666666666666" cy="109" r="4" fill="#388bfd"/>
+<text x="208.66666666666666" y="113" fill="#8b949e" font-size="12">AI-assisted</text>
+<text x="194.66666666666666" y="138" fill="#e6edf3" font-size="18" font-weight="600">137<tspan fill="#8b949e" font-size="12" font-weight="400"> · 29%</tspan></text>
+<circle cx="365.3333333333333" cy="109" r="4" fill="#a371f7"/>
+<text x="375.3333333333333" y="113" fill="#8b949e" font-size="12">AI agent</text>
+<text x="361.3333333333333" y="138" fill="#e6edf3" font-size="18" font-weight="600">148<tspan fill="#8b949e" font-size="12" font-weight="400"> · 31%</tspan></text>
+</svg>
