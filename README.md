@@ -46,6 +46,8 @@ Full-stack engineer with 2+ years across **FPT Software** and **ESCS**, building
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=thaildhe172591&show_icons=true&custom_title=GitHub%20Stats&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="GitHub stats" />
   <img src="https://streak-stats.demolab.com?user=thaildhe172591&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub streak" />
   <br/>
+  <img src="assets/ai-commits.svg" width="556" alt="Human vs AI commits across my public repos, updated daily" />
+  <br/>
   <sub>Most of my day-to-day work lives in private company repositories, so these numbers only cover my open-source side.</sub>
 </div>
 
