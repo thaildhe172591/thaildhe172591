@@ -50,10 +50,10 @@ Full-stack engineer at **FPT Software** (2+ yrs) building claim-processing syste
 ## 🚀 Featured work
 
 <div align="center">
-  <a href="https://github.com/thaildhe172591/pythia"><img src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=pythia&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="pythia" /></a>
-  <a href="https://github.com/thaildhe172591/Atlas-Force"><img src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=Atlas-Force&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="Atlas-Force" /></a>
-  <a href="https://github.com/thaildhe172591/delphi-team"><img src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=delphi-team&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="delphi-team" /></a>
-  <a href="https://github.com/thaildhe172591/Netflex-App"><img src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=Netflex-App&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="Netflex-App" /></a>
+  <a href="https://github.com/thaildhe172591/pythia"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=pythia&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="pythia" /></a>
+  <a href="https://github.com/thaildhe172591/Atlas-Force"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=Atlas-Force&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="Atlas-Force" /></a>
+  <a href="https://github.com/thaildhe172591/delphi-team"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=delphi-team&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="delphi-team" /></a>
+  <a href="https://github.com/thaildhe172591/Netflex-App"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=thaildhe172591&repo=Netflex-App&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="Netflex-App" /></a>
 </div>
 
 | 🔒 At work (private) | What it does | Impact |
