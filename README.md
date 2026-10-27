@@ -13,7 +13,7 @@
 
 ## 👨‍💻 About me
 
-Full-stack engineer at **FPT Software** (2+ yrs) building claim-processing systems for insurance carriers, from Oracle PL/SQL at the bottom to React/Next.js at the top. I like the unglamorous kind of AI: the kind that quietly removes hours of manual work.
+Full-stack engineer with 2+ years across **FPT Software** and **ESCS**, building claim-processing systems for insurance carriers, from Oracle PL/SQL at the bottom to React/Next.js at the top. I like the unglamorous kind of AI: the kind that quietly removes hours of manual work.
 
 - 🏢 **At work:** insurance claim platforms on **C#/.NET · Oracle · React/Next.js**
 - 🤖 **Shipped:** an in-house **OCR pipeline** that reads 18 insurance document types from one scanned PDF and maps them into Oracle → claim intake **15–20 min → 4–5 min**
@@ -65,6 +65,8 @@ Full-stack engineer at **FPT Software** (2+ yrs) building claim-processing syste
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=thaildhe172591&show_icons=true&custom_title=GitHub%20Stats&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="GitHub stats" />
   <img src="https://streak-stats.demolab.com?user=thaildhe172591&theme=github-dark-blue&hide_border=true&background=0D1117" alt="GitHub streak" />
+  <br/>
+  <sub>Most of my day-to-day work lives in private company repositories, so these numbers only cover my open-source side.</sub>
 </div>
 
 <div align="center">
