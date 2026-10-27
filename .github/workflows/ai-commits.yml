@@ -1,0 +1,26 @@
+name: AI commit stats
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/ai-commits.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Commit card if numbers changed
+        run: |
+          git add assets/ai-commits.svg
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update AI commit stats"
+          git push
