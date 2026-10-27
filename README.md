@@ -24,7 +24,7 @@ Full-stack engineer with 2+ years across **FPT Software** and **ESCS**, building
 ## 🛠️ Tech stack
 
 <div align="center">
-  <img src="assets/tech-stack.svg" width="556" alt="Tech stack. Backend: C#, .NET, Java. Frontend: React, Next.js, TypeScript, JavaScript, HTML, CSS. Data: Oracle, PostgreSQL, MySQL, MongoDB. AI and automation: Claude, MCP, Python. Tools: Git, Visual Studio, VS Code, Docker, GitHub Actions." />
+  <img src="assets/tech-stack.svg" width="612" alt="Tech stack. Backend: C#, .NET, Java, Go. Frontend: React, Next.js, Tauri, TypeScript, JavaScript, HTML, CSS. Data: Oracle, PostgreSQL, MySQL, MongoDB. AI and automation: Claude, Codex, Gemini, Grok, GitHub Copilot, MCP, Python. Tools and cloud: Git, Visual Studio, VS Code, Docker, GitHub Actions, AWS, Cloudflare." />
 </div>
 
 ## 🚀 Featured work
