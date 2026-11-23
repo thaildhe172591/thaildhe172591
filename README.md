@@ -13,7 +13,7 @@
 
 ## 👨‍💻 About me
 
-Full-stack engineer with 2+ years across **FPT Software**, **ESCS** and now now **CMC Technology & Solution (CMC TS)**, building claim-processing systems for insurance carriers, from Oracle PL/SQL at the bottom to React/Next.js at the top. At **CMC TS** I'm working on a **government project**, applying the same end-to-end mindset to large-scale public-sector systems. I like the unglamorous kind of AI: the kind that quietly removes hours of manual work.
+Full-stack engineer with 2+ years across **FPT Software**, **ESCS** and now **CMC Technology & Solution (CMC TS)**, building claim-processing systems for insurance carriers, from Oracle PL/SQL at the bottom to React/Next.js at the top. At **CMC TS** I'm working on a **government project**, applying the same end-to-end mindset to large-scale public-sector systems. I like the unglamorous kind of AI: the kind that quietly removes hours of manual work.
 
 - 🏢 **At work:** insurance claim platforms on **C#/.NET · Oracle · React/Next.js**
 - 🤖 **Shipped:** an in-house **OCR pipeline** that reads 18 insurance document types from one scanned PDF and maps them into Oracle → claim intake **15–20 min → 4–5 min**
